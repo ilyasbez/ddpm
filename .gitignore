@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# MNIST dataset
+data/MNIST/
+
+# Generated results
+results/
+
+# Optional: ignore model checkpoints
+checkpoints/*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db 
