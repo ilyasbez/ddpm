@@ -18,13 +18,6 @@ ddpm/
 ├── README.md
 ├── requirements.txt
 │
-├── checkpoints/
-│   └── ddpm_mnist.pt
-│
-├── data/
-│   └── MNIST/
-│       └── raw/
-│
 ├── results/
 │
 └── src/
@@ -36,12 +29,7 @@ ddpm/
 - `src/ddpm.py` — DDPM model, diffusion process, U-Net components, and noise schedule  
 - `src/train.py` — model training  
 - `src/generate.py` — image generation using the learned reverse diffusion process  
-- `checkpoints/` — saved model weights  
-- `data/` — MNIST dataset  
 - `results/` — generated samples and training outputs  
-
-The MNIST dataset and generated results are excluded from version control through `.gitignore`.
-
 ---
 
 ## Mathematical Foundations
