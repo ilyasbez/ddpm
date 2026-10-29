@@ -198,8 +198,6 @@ Generated samples can be found in `results/`.
 
 Example output:
 
-*(If the generated image has a different filename, update the path above accordingly.)*
-
 ---
 
 ## Implementation Details
